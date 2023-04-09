@@ -84,7 +84,7 @@
     @media (max-width: 480px) {
       grid-auto-columns: 30%;
     }
-    @media (max-width: 420px) {
+    @media (max-width: 380px) {
       grid-auto-columns: 20%;
     }
     grid-auto-columns: 23%;
@@ -126,11 +126,11 @@
     scroll-snap-type: inline mandatory;
     scroll-padding-inline: 1rem;
     @media (max-width: 2000px) {
-      grid-auto-columns: 15%;
+      grid-auto-columns: 70%;
       align-items: center;
       justify-content: center;
     }
-    @media (max-width: 420px) {
+    @media (max-width: 380px) {
       grid-auto-columns: 40%;
       border-radius: 13%;
     }

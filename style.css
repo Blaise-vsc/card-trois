@@ -254,7 +254,7 @@ body {
     grid-auto-columns: 30%;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 380px) {
   .furniture-page .slide-container {
     grid-auto-columns: 20%;
   }
@@ -298,12 +298,12 @@ body {
 }
 @media (max-width: 2000px) {
   .furniture-page .twins-slide-down {
-    grid-auto-columns: 15%;
+    grid-auto-columns: 70%;
     align-items: center;
     justify-content: center;
   }
 }
-@media (max-width: 420px) {
+@media (max-width: 380px) {
   .furniture-page .twins-slide-down {
     grid-auto-columns: 40%;
     border-radius: 13%;
@@ -421,7 +421,7 @@ body {
   border-bottom-right-radius: 10%;
   border-bottom-left-radius: 10%;
 }
-@media (max-width: 420px) {
+@media (max-width: 380px) {
   .last-sheet .image {
     width: 200px;
     height: 200px;
