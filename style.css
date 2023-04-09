@@ -55,11 +55,11 @@ body {
   }
   .img-div .first-img-middle {
     position: absolute;
-    width: 290px;
-    height: 290px;
+    width: 280px;
+    height: 280px;
     border-radius: 50%;
     bottom: 0%;
-    left: 0%;
+    left: 5%;
   }
 }
 @media (max-width: 320px) {
