@@ -298,7 +298,7 @@ body {
 }
 @media (max-width: 2000px) {
   .furniture-page .twins-slide-down {
-    grid-auto-columns: 70%;
+    grid-auto-columns: 60%;
     align-items: center;
     justify-content: center;
   }
