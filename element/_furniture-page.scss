@@ -1,0 +1,168 @@
+.furniture-page {
+  width: 100vw;
+  height: 100vh;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+
+  .furniture-page-first-section {
+    width: 100%;
+    height: 7%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 0px 20px;
+    .p-tag {
+      padding: 15px 15px;
+      color: $black;
+      background-color: $white;
+      font-size: 20px;
+      border-radius: 50%;
+      font-weight: bolder;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .p-modern {
+      font-size: 20px;
+      span {
+        font-weight: bolder;
+      }
+    }
+    .p-tag-right {
+      border: 1px solid $white;
+      color: $white;
+      background: none;
+    }
+  }
+}
+.furniture-page {
+  form {
+    width: 25%;
+    height: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    flex-direction: row;
+    border-radius: 25px;
+    border: 1px solid $white;
+    color: $white;
+    gap: 15px;
+    padding: 0px 20px;
+    .form-element {
+      background: none;
+      border: none;
+      color: $white;
+      font-size: 25px;
+      input {
+        width: 5%;
+      }
+    }
+  }
+}
+.furniture-page {
+  .slide-container {
+    width: 100%;
+    height: 20%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+    overscroll-behavior-inline: contain;
+
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem;
+    @media (max-width: 2000px) {
+      grid-auto-columns: 7%;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 480px) {
+      grid-auto-columns: 30%;
+    }
+    @media (max-width: 420px) {
+      grid-auto-columns: 20%;
+    }
+    grid-auto-columns: 23%;
+    gap: 1rem;
+    overflow-x: auto;
+    .slid-twin {
+      border-top-left-radius: 25%;
+      border-top-right-radius: 25%;
+    }
+    .slide {
+      height: 100%;
+      display: flex;
+      scroll-snap-align: start;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      border-radius: 10%;
+      padding: 10px;
+      gap: 15px;
+      border: 1px solid $white;
+      p {
+        font-weight: bolder;
+        font-size: 10px;
+      }
+
+      img {
+        width: 100%;
+        border-radius: 10%;
+      }
+    }
+  }
+  .twins-slide-down {
+    width: 100%;
+    height: 40%;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 15%;
+    overscroll-behavior-inline: contain;
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: 1rem;
+    @media (max-width: 2000px) {
+      grid-auto-columns: 15%;
+      align-items: center;
+      justify-content: center;
+    }
+    @media (max-width: 420px) {
+      grid-auto-columns: 40%;
+      border-radius: 13%;
+    }
+    grid-auto-columns: 20%;
+    gap: 1rem;
+    overflow-x: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .furniture-page {
+    gap: 20px;
+    .chair-collection {
+      justify-content: space-between;
+    }
+    .slide-container {
+      scroll-padding-inline: 0rem;
+      .slide {
+        gap: 7px;
+        background: $yellow;
+        border-radius: 25px;
+        img {
+          width: 90%;
+
+          border-radius: 25px;
+        }
+      }
+    }
+    .furniture-page-first-section {
+      form {
+        width: 80%;
+      }
+    }
+  }
+}

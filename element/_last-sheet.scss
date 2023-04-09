@@ -1,0 +1,112 @@
+.last-sheet {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  color: $white;
+  .degre {
+    width: 30%;
+    height: 10%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    // background: rgb(255, 0, 0);
+    @media (max-width: 480px) {
+      width: 80%;
+    }
+    .degre-left {
+      width: 70%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      //   background: yellow;
+      .left-div {
+        width: 100%;
+        height: 50%;
+        // background: maroon;
+        border-radius: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        padding: 0px 20px;
+        .wing {
+          font-size: 20px;
+          font-weight: bolder;
+        }
+      }
+    }
+    .degre-rigth {
+      width: 30%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: row;
+      //   background: rgb(82, 148, 67);
+
+      .one {
+        display: inline-block;
+        padding: 5px;
+        background: rgba(128, 128, 128, 0.672);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        border-radius: 20px;
+        p {
+          padding: 3px 10px;
+          font-size: 20px;
+          font-weight: bolder;
+        }
+        .p-white {
+          background: $white;
+          border-radius: 20px;
+          color: black;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+      }
+      span {
+        background: $white;
+      }
+    }
+  }
+  .image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-top-right-radius: 35%;
+    border-top-left-radius: 35%;
+    border-bottom-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+    @media (max-width: 420px) {
+      width: 200px;
+      height: 200px;
+    }
+  }
+  .first-lign {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+    p {
+      i {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px;
+        border: 2px solid $white;
+        border-radius: 50%;
+        font-size: 20px;
+      }
+    }
+  }
+}
