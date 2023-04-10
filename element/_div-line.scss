@@ -1,0 +1,42 @@
+.div-line {
+  width: 30%;
+  //   background: blue;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+  .color {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5px;
+    padding: 10px;
+    .circle {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+    }
+    .red {
+      background: red;
+    }
+    .bleu {
+      background: rgb(13, 0, 255);
+    }
+    .yellow {
+      background: rgb(238, 255, 0);
+    }
+    .green {
+      background: rgb(0, 255, 8);
+    }
+  }
+  .lorem {
+    padding: 10px 0px;
+  }
+  .line {
+    width: 500px;
+    height: 0px;
+    border: 1px solid $white;
+    border: dotted;
+  }
+}

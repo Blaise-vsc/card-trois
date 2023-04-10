@@ -126,7 +126,7 @@
     scroll-snap-type: inline mandatory;
     scroll-padding-inline: 1rem;
     @media (max-width: 2000px) {
-      grid-auto-columns: 60%;
+      grid-auto-columns: 20%;
       align-items: center;
       justify-content: center;
     }

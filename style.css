@@ -298,7 +298,7 @@ body {
 }
 @media (max-width: 2000px) {
   .furniture-page .twins-slide-down {
-    grid-auto-columns: 60%;
+    grid-auto-columns: 20%;
     align-items: center;
     justify-content: center;
   }
@@ -442,4 +442,46 @@ body {
   border: 2px solid #ffffff;
   border-radius: 50%;
   font-size: 20px;
+}
+
+.div-line {
+  width: 30%;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: column;
+}
+.div-line .color {
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  flex-direction: row;
+  gap: 5px;
+  padding: 10px;
+}
+.div-line .color .circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+.div-line .color .red {
+  background: red;
+}
+.div-line .color .bleu {
+  background: rgb(13, 0, 255);
+}
+.div-line .color .yellow {
+  background: rgb(238, 255, 0);
+}
+.div-line .color .green {
+  background: rgb(0, 255, 8);
+}
+.div-line .lorem {
+  padding: 10px 0px;
+}
+.div-line .line {
+  width: 500px;
+  height: 0px;
+  border: 1px solid #ffffff;
+  border: dotted;
 }/*# sourceMappingURL=style.css.map */
