@@ -47,8 +47,8 @@ body {
 }
 @media (max-width: 480px) and (max-width: 380px) {
   .img-div .first-img-left {
-    width: 160px;
-    height: 160px;
+    width: 150px;
+    height: 150px;
     left: 5%;
   }
 }
