@@ -489,4 +489,9 @@ body {
   height: 0px;
   border: 1px solid #ffffff;
   border: dotted;
+}
+@media (max-width: 480px) {
+  .div-line .line {
+    width: 250px;
+  }
 }/*# sourceMappingURL=style.css.map */
