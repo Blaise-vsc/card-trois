@@ -451,6 +451,11 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+@media (max-width: 480px) {
+  .div-line {
+    width: 100%;
+  }
+}
 .div-line .color {
   display: flex;
   align-items: start;
