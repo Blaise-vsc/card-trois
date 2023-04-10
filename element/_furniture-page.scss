@@ -27,6 +27,9 @@
       display: flex;
       align-items: center;
       justify-content: center;
+      @media (max-width: 380px) {
+        padding: 10px 10px;
+      }
     }
     .p-modern {
       font-size: 20px;

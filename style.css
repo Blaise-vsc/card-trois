@@ -217,6 +217,11 @@ body {
   align-items: center;
   justify-content: center;
 }
+@media (max-width: 380px) {
+  .furniture-page .furniture-page-first-section .p-tag {
+    padding: 10px 10px;
+  }
+}
 .furniture-page .furniture-page-first-section .p-modern {
   font-size: 20px;
 }
