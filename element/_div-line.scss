@@ -41,5 +41,8 @@
     height: 0px;
     border: 1px solid $white;
     border: dotted;
+    @media (max-width: 480px) {
+      width: 250px;
+    }
   }
 }
