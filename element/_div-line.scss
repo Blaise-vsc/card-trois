@@ -5,6 +5,9 @@
   align-items: start;
   justify-content: center;
   flex-direction: column;
+  @media (max-width: 480px) {
+    width: 100%;
+  }
   .color {
     display: flex;
     align-items: start;
