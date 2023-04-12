@@ -456,6 +456,20 @@ body {
     width: 330px;
   }
 }
+@media (max-width: 370px) {
+  .brainds-img {
+    grid-auto-columns: 87%;
+    margin-bottom: 3rem;
+  }
+  .brainds-img .slide .slide-coments {
+    justify-content: space-between;
+    padding: 5px 10px;
+    bottom: -10px;
+  }
+  .brainds-img .slide img {
+    width: 280px;
+  }
+}
 
 footer {
   width: 100%;

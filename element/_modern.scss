@@ -263,6 +263,20 @@
       }
     }
   }
+  @media (max-width: 370px) {
+    grid-auto-columns: 87%;
+    margin-bottom: 3rem;
+    .slide {
+      .slide-coments {
+        justify-content: space-between;
+        padding: 5px 10px;
+        bottom: -10px;
+      }
+      img {
+        width: 280px;
+      }
+    }
+  }
 }
 
 footer {
