@@ -43,6 +43,7 @@ body {
     height: 150px;
     border-radius: 50%;
     top: 5%;
+    left: 5%;
   }
 }
 @media (max-width: 480px) and (max-width: 380px) {
@@ -55,10 +56,10 @@ body {
 @media (max-width: 480px) {
   .img-div .first-img-right {
     position: absolute;
-    width: 220px;
-    height: 220px;
+    width: 200px;
+    height: 200px;
     border-radius: 50%;
-    top: 18%;
+    top: 14%;
     right: 5%;
   }
 }
@@ -71,10 +72,10 @@ body {
 @media (max-width: 480px) {
   .img-div .first-img-middle {
     position: absolute;
-    width: 280px;
-    height: 280px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    bottom: 0%;
+    bottom: -5%;
     left: 5%;
   }
 }
