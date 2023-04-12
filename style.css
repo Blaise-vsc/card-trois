@@ -474,6 +474,7 @@ footer .footer-elements {
   gap: 3px;
   border-radius: 25px;
   padding: 6px;
+  text-decoration: none;
 }
 footer .footer-elements:hover {
   background: wheat;
