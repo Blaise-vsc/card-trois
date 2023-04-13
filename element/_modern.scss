@@ -124,9 +124,9 @@
 
 .slides-container {
   width: 100%;
-  display: grid;
   align-items: center;
   justify-content: center;
+  display: grid;
   grid-auto-flow: column;
   grid-auto-columns: 9%;
   overscroll-behavior-inline: contain;
@@ -146,6 +146,11 @@
     gap: 10px;
     padding: 10px;
     border-radius: 20px;
+    animation-name: color-keyframe;
+    animation-duration: 20s;
+    animation-delay: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
     p {
       font-size: 20px;
       font-weight: bolder;
@@ -309,5 +314,36 @@ footer {
     .footer-elements {
       gap: 8px;
     }
+  }
+}
+
+@keyframes color-keyframe {
+  0% {
+    border: 2px solid black;
+    background: none;
+  }
+  15% {
+    border: 2px solid rgba(0, 0, 0, 0);
+    background: none;
+  }
+  30% {
+    border: 2px solid rgb(1, 222, 242);
+    background: none;
+  }
+  45% {
+    border: 2px solid rgba(242, 190, 1, 0);
+    background: none;
+  }
+  70% {
+    border: 2px solid rgb(1, 242, 226);
+    background: none;
+  }
+  85% {
+    border: 2px solid rgba(242, 1, 97, 0);
+    background: none;
+  }
+  100% {
+    border: 2px solid rgb(0, 0, 0);
+    background: $chair;
   }
 }
